@@ -139,9 +139,9 @@ The dummy images are random ellipses; the resulting model is meaningless.
 
 ## Training data
 
-The pretrained weights were trained on 2D slices from a large population-based
-cohort study (name withheld for anonymous review); the data are **not** part of this
-repository. Acquisition: 3.0 T Siemens MAGNETOM Skyra.
+The pretrained weights were trained on 2D slices from the German National Cohort
+(NAKO); the data are **not** part of this repository. Acquisition: 3.0 T Siemens
+MAGNETOM Skyra.
 - T2-weighted HASTE (input): slice thickness 5.0 mm, in-plane resolution 1.4 × 1.4 mm, TE 81 ms, coverage from shoulder to epigastric region.
 - T1-weighted 3D VIBE two-point Dixon (source of the SFF target maps): slice thickness 3.0 mm, in-plane resolution 1.4 × 1.4 mm, coverage neck to knee, CAIPIRINHA acceleration.
 
