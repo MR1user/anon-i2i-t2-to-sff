@@ -6,3 +6,4 @@ examples/dummy_data/
 .ipynb_checkpoints/
 *.log
 .DS_Store
+weights/*.pth
