@@ -39,6 +39,9 @@ and differ only in the augmentation.
 conda env create -f environment.yml
 conda activate sff-translation
 ```
+Then download the pretrained weights from Hugging Face
+([mri2sff/anon-i2i-t2-to-sff](https://huggingface.co/mri2sff/anon-i2i-t2-to-sff))
+into `weights/` (see [`weights/README.md`](weights/README.md)).
 
 The environment installs PyTorch 2.7.1 built for CUDA 11.8 (the CUDA runtime is
 bundled; you only need a recent NVIDIA driver). For CPU-only use, edit
